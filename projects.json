@@ -1,0 +1,11 @@
+[
+  {
+    "title": "Seamoon Shipping",
+    "status": "live // web platform",
+    "description": "A shipping company website and digital presence designed to make a complex service feel direct, credible and easy to navigate.",
+    "tags": ["Web development", "Systems thinking", "Visual direction"],
+    "achievements": ["Recently shipped", "Live in production", "End-to-end build"],
+    "image": "seamoon-live.png",
+    "liveUrl": "https://seamoonshipping.com"
+  }
+]
