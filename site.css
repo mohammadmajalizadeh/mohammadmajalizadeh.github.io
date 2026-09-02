@@ -63,6 +63,8 @@ h3 { letter-spacing: -.045em; }
 .hero-photo { width: min(100%, 29rem); aspect-ratio: 4/5; margin-inline: auto; object-fit: cover; border: 1px solid rgba(238,240,233,.3); border-radius: 1.5rem .35rem 1.5rem .35rem; filter: grayscale(1) contrast(1.2); box-shadow: 1rem 1rem 0 var(--acid-soft), 2rem 2rem 4rem rgba(0,0,0,.35); transform: rotate(3deg); }
 .hero-code { position: absolute; bottom: -1.5rem; left: -2rem; padding: 1.1rem 1.2rem; color: #dce8df; background: var(--panel); border: 1px solid var(--line); border-radius: .5rem; box-shadow: .8rem .8rem 0 rgba(199,243,107,.14); font: .72rem/1.65 ui-monospace, monospace; }
 .hero-code b { color: var(--acid); }
+.hero-cv-link { display: block; width: min(100%, 29rem); margin-inline: auto; }
+.hero-photo.cv-shot { object-position: top; filter: none; }
 .availability-line { display: flex; align-items: center; gap: .55rem; margin: 1.5rem 0 0; color: var(--muted); font-size: .8rem; font-weight: 700; }
 .status-dot { width: .5rem; height: .5rem; border-radius: 50%; background: var(--acid); box-shadow: 0 0 0 .25rem rgba(199,243,107,.14); }
 

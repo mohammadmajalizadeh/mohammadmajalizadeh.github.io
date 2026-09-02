@@ -175,9 +175,15 @@
     .entry-head { flex-direction: column; gap: 0; }
     .skill-groups div { grid-template-columns: 1fr; gap: 2px; }
   }
+  /* Screenshot mode (?shot): hide screen chrome, crop to the document */
+  html.shot, html.shot body { background: #fff; }
+  html.shot .screen-bar { display: none; }
+  html.shot .page { margin: 0; box-shadow: none; }
+
 </style>
 </head>
 <body>
+  <script>if (location.search.includes('shot')) document.documentElement.classList.add('shot');</script>
   <div class="screen-bar">
     <small>CV of Mohammad Majalizadeh — print this page to save it as a PDF</small>
     <button class="print-button" type="button" onclick="window.print()">Print / Save as PDF</button>
