@@ -93,6 +93,7 @@ h3 { letter-spacing: -.045em; }
 .bento-card.accent p { color: rgba(11,13,12,.72); }
 .bento-card.large p { color: rgba(238,240,233,.7); }
 .bento-card.large::before { content: ''; position: absolute; inset: 0; opacity: .28; background: url('https://picsum.photos/seed/terminaldesk/1000/1000') center/cover; filter: grayscale(1) contrast(1.3); }
+  .bento-card.large.infra::before { opacity: .45; background: url('infra-shot.png') center/cover; filter: none; }
 .bento-card.large > * { position: relative; }
 .bento-card.large h3 { font-size: 2rem; }
 
